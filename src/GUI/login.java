@@ -13,9 +13,9 @@ public class login extends Application {
 
     @Override
     public void start(Stage stage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("EngineProfile.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         stage.setTitle("Railway Failiure Management System");
-        stage.initStyle(StageStyle.UNDECORATED);
+        //stage.initStyle(StageStyle.UNDECORATED);
         Scene scene=new Scene(root);
         stage.setScene(scene);
         stage.show();
