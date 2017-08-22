@@ -9,13 +9,13 @@ import javafx.stage.StageStyle;
 
 import static javafx.stage.Stage.*;
 
-public class login extends Application {
+public class ATE extends Application {
 
     @Override
     public void start(Stage stage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("EngineProfile.fxml"));
-        stage.setTitle("Railway Failiure Management System");
-        stage.initStyle(StageStyle.UNDECORATED);
+        Parent root = FXMLLoader.load(getClass().getResource("ATE.fxml"));
+        stage.setTitle("Engine Failiure Management System");
+        //stage.initStyle(StageStyle.UNDECORATED);
         Scene scene=new Scene(root);
         stage.setScene(scene);
         stage.show();

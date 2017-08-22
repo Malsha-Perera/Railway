@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.0" prefWidth="772.0" style="-fx-background-color: #FFC9A8; -fx-border-color: #990000; -fx-border-width: 5px; -fx-border-radius: 10px;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.EmployeeProfile_controller">
+   <children>
+      <AnchorPane layoutX="120.0" layoutY="83.0" prefHeight="566.0" prefWidth="532.0" style="-fx-border-color: #990000; -fx-background-position: center;">
+         <children>
+            <Label layoutX="23.0" layoutY="165.0" prefHeight="20.0" prefWidth="124.0" text="Engine No">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Txt_cstate" layoutX="225.0" layoutY="480.0" prefHeight="28.0" prefWidth="227.0" />
+            <Label layoutX="23.0" layoutY="209.0" text="Type">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Txt_eno" layoutX="225.0" layoutY="165.0" prefHeight="28.0" prefWidth="227.0" />
+            <Label layoutX="23.0" layoutY="253.0" text="Builders">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Txt_ty" layoutX="225.0" layoutY="207.0" prefHeight="28.0" prefWidth="227.0" />
+            <Label layoutX="23.0" layoutY="298.0" prefHeight="25.0" prefWidth="139.0" text="Axel Arrangement">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Txt_buil" layoutX="225.0" layoutY="251.0" prefHeight="28.0" prefWidth="227.0" />
+            <ImageView fitHeight="126.0" fitWidth="158.0" layoutX="294.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="294.0" layoutY="22.0" prefHeight="126.0" prefWidth="158.0" style="-fx-border-color: #990000;" />
+            <Label layoutX="25.0" layoutY="346.0" text="Life Time">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Txt_life" layoutX="225.0" layoutY="344.0" prefHeight="28.0" prefWidth="227.0" />
+            <Label layoutX="23.0" layoutY="391.0" text="Top Speed">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Txt_tpsp" layoutX="225.0" layoutY="391.0" prefHeight="28.0" prefWidth="227.0" />
+            <Label layoutX="26.0" layoutY="433.0" prefHeight="25.0" prefWidth="99.0" text="No Of Locos">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Txt_nloco" layoutX="225.0" layoutY="433.0" prefHeight="28.0" prefWidth="227.0" />
+            <Label layoutX="23.0" layoutY="490.0" prefHeight="17.0" prefWidth="99.0" text="Current State">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Txt_arr" layoutX="225.0" layoutY="297.0" prefHeight="28.0" prefWidth="227.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="275.0" layoutY="47.0" prefHeight="28.0" prefWidth="246.0" text="Engine Profile" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_B" layoutX="663.0" layoutY="643.0" mnemonicParsing="false" onAction="#pressBackBtn" prefHeight="42.0" prefWidth="88.0" text="Back" />
+   </children>
+</AnchorPane>
