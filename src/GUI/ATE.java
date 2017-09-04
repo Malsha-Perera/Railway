@@ -18,7 +18,7 @@ public class ATE extends Application {
         //stage.initStyle(StageStyle.UNDECORATED);
         Scene scene=new Scene(root);
         stage.setScene(scene);
-
+        stage.show();
 
 
 
