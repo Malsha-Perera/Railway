@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="790.0" style="-fx-background-color: #FFC9A8; -fx-border-color: #990000 #990000; -fx-border-width: 5px; -fx-border-radius: 10px;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.TripDetails_controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="790.0" style="-fx-background-color: #FFC9A8; -fx-border-color: #990000 #990000; -fx-border-width: 5px; -fx-border-radius: 10px;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TripDetails_controller">
    <children>
       <AnchorPane layoutX="118.0" layoutY="76.0" prefHeight="457.0" prefWidth="592.0" style="-fx-border-color: #990000 #990000;">
          <children>

@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="img1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1357.0" style="-fx-background-color: #FFC9A8; -fx-border-color: #990000; -fx-border-width: 5px;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Home_controller">
+<AnchorPane id="img1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="725.0" prefWidth="1357.0" style="-fx-background-color: #FFC9A8; -fx-border-color: #990000; -fx-border-width: 5px;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Home_controller">
    <children>
       <AnchorPane layoutX="18.0" layoutY="23.0" prefHeight="68.0" prefWidth="1323.0" style="-fx-background-color: #330000;">
          <children>
@@ -87,12 +87,12 @@
       </Label>
       <ImageView fitHeight="164.0" fitWidth="218.0" layoutX="414.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Img/state.png" />
+            <Image url="@../GUI/Img/state.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="193.0" fitWidth="207.0" layoutX="903.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Img/logo.gif" />
+            <Image url="@../GUI/Img/logo.gif" />
          </image>
       </ImageView>
       <Button fx:id="btn_next" layoutX="1023.0" layoutY="626.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" text="Next" />

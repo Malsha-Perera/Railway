@@ -14,7 +14,7 @@
    <children>
       <ImageView fitHeight="509.0" fitWidth="661.0" layoutX="36.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Img/bg1.jpg" />
+            <Image url="@../GUI/Img/bg1.jpg" />
          </image>
          <effect>
             <InnerShadow height="35.83" radius="21.119999999999997" width="50.65" />

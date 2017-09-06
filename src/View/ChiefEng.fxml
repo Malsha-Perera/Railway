@@ -6,39 +6,39 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ATE">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ChiefEng_controller">
    <children>
-      <TitledPane animated="false" collapsible="false" prefHeight="400.0" prefWidth="600.0" text="You are logged in as the ATE">
+      <TitledPane animated="false" collapsible="false" prefHeight="400.0" prefWidth="600.0" text="You are logged in as the Chief engineer">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #CC8000;">
                <children>
-                  <Button alignment="CENTER" layoutX="146.0" layoutY="103.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="266.0" text="Register Locomotives">
+                  <Button fx:id="btn2" layoutX="170.0" layoutY="181.0" mnemonicParsing="false" onAction="#PressButton2" prefHeight="42.0" prefWidth="300.0" text="View delay engine failures">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                      <effect>
-                        <InnerShadow />
+                        <InnerShadow radius="12.225" width="29.9" />
                      </effect>
                   </Button>
-                  <Button alignment="CENTER" layoutX="146.0" layoutY="173.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="266.0" text="Review failure and recovery instructions">
+                  <Button fx:id="back_btn" layoutX="269.0" layoutY="261.0" mnemonicParsing="false" onAction="#PressButton3" prefHeight="37.0" prefWidth="114.0" text="Back">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                      <effect>
-                        <InnerShadow />
+                        <InnerShadow radius="12.225" width="29.9" />
                      </effect>
                   </Button>
-                  <Button alignment="CENTER" layoutX="224.0" layoutY="263.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="109.0" text="Back">
+                  <Button fx:id="btn1" layoutX="170.0" layoutY="104.0" mnemonicParsing="false" onAction="#PressButton1" prefHeight="44.0" prefWidth="294.0" text="Discard Locomotives">
                      <font>
                         <Font name="System Bold" size="16.0" />
                      </font>
                      <effect>
-                        <InnerShadow />
+                        <InnerShadow choke="0.12" />
                      </effect>
                   </Button>
                </children>
                <effect>
-                  <InnerShadow radius="17.4125" width="50.65" />
+                  <InnerShadow radius="17.3525" width="50.41" />
                </effect>
             </AnchorPane>
         </content>

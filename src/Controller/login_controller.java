@@ -1,4 +1,4 @@
-package GUI;/**
+package Controller;/**
  * Created by acer on 8/18/2017.
  */
 

@@ -1,19 +1,16 @@
-package GUI;
+package Model;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-
-import static javafx.stage.Stage.*;
 
 public class ATE extends Application {
 
     @Override
     public void start(Stage stage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("ATE.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../View/ATE.fxml"));
         stage.setTitle("Engine Failiure Management System");
         //stage.initStyle(StageStyle.UNDECORATED);
         Scene scene=new Scene(root);

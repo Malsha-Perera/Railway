@@ -1,4 +1,4 @@
-package GUI;
+package Model;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -7,13 +7,11 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-import static javafx.stage.Stage.*;
-
 public class login extends Application {
 
     @Override
     public void start(Stage stage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("EngineProfile.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../View/EngineProfile.fxml"));
         stage.setTitle("Railway Failiure Management System");
         stage.initStyle(StageStyle.UNDECORATED);
         Scene scene=new Scene(root);
